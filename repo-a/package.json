@@ -1,0 +1,16 @@
+{
+  "name": "repo-a",
+  "version": "1.0.0",
+  "description": "Script for running performance tests and gathering results",
+  "main": "index.mjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "yargs": "^17.6.2"
+  }
+}

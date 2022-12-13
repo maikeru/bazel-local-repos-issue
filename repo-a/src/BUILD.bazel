@@ -1,0 +1,12 @@
+load("@aspect_rules_js//js:defs.bzl", "js_library")
+
+js_library(
+    name = "index",
+    srcs = [
+        "index.mjs",
+    ],
+    visibility = ["//visibility:public"],
+    deps = [
+        "//:node_modules/yargs",
+    ],
+)
